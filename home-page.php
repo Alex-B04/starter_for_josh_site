@@ -34,7 +34,7 @@
 
 <div class="col-md-4">
     <?php
-    $image = get_field('articleimage');
+    $image = get_field('articleimage2');
     ?>
     <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
     <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
@@ -45,7 +45,7 @@
 
 <div class="col-md-4">
     <?php
-    $image = get_field('articleimage');
+    $image = get_field('articleimage3');
     ?>
     <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
     <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
