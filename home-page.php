@@ -25,7 +25,7 @@
     <?php
     $image = get_field('articleimage');
     ?>
-    <img class="img-fluid" src="<?php echo esc_url($image['http://170.187.231.66/~mesh16/wp-content/themes/starter_for_josh_site/images/port1.jpg.']); ?>" alt="<?php echo esc_attr($image['woman']); ?>">
+    <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
     <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
     <p class="date" ><?php the_field('articledate'); ?></p>
     <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>    
@@ -33,10 +33,10 @@
 </div>
 
 <div class="col-md-4">
-<?php
+    <?php
     $image = get_field('articleimage');
     ?>
-    <img class="img-fluid" src="<?php echo esc_url($image['http://170.187.231.66/~mesh16/wp-content/themes/starter_for_josh_site/images/port2.jpg.']); ?>" alt="<?php echo esc_attr($image['robot']); ?>">
+    <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
     <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
     <p class="date" ><?php the_field('articledate'); ?></p>
     <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>    
@@ -44,10 +44,10 @@
 </div>
 
 <div class="col-md-4">
-<?php
+    <?php
     $image = get_field('articleimage');
     ?>
-    <img class="img-fluid" src="<?php echo esc_url($image['http://170.187.231.66/~mesh16/wp-content/themes/starter_for_josh_site/images/port3.jpg.']); ?>" alt="<?php echo esc_attr($image['track']); ?>">
+    <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
     <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
     <p class="date" ><?php the_field('articledate'); ?></p>
     <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>    
