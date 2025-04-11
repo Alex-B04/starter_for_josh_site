@@ -35,7 +35,7 @@
 </title>
 </head>
 <body>
-<header class="container-fluid smallpage-bg">
+<header class="container-fluid small_herobg">
     <div class="container">
 
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -66,7 +66,6 @@
         </div>
       </nav>
 <div class="smallpage-tag">
-      <h1 class="smallpage-title">Projects</h1>
     </div>
 </div> <!-- container -->
 <?php wp_head(); ?> <!-- very important that this code is added-->
